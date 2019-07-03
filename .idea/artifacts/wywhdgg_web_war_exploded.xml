@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wywhdgg-web:war exploded">
+    <output-path>$PROJECT_DIR$/wywhdgg-web/target/wywhdgg-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wywhdgg-web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/wywhdgg-web/target/wywhdgg-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="wywhdgg-web/web/Web" />
+    </root>
+  </artifact>
+</component>
